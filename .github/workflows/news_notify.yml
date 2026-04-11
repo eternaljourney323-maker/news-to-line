@@ -1,0 +1,39 @@
+name: LINE ニュース通知
+
+on:
+  schedule:
+    # GitHub Actions の cron は UTC 基準。日本時間 (JST = UTC+9) に変換済み
+    - cron: '0 20 * * *'  #  5:00 JST
+    - cron: '0 21 * * *'  #  6:00 JST
+    - cron: '0 22 * * *'  #  7:00 JST
+    - cron: '0  3 * * *'  # 12:00 JST
+    - cron: '0  6 * * *'  # 15:00 JST
+    - cron: '0  8 * * *'  # 17:00 JST
+    - cron: '0  9 * * *'  # 18:00 JST
+    - cron: '0 10 * * *'  # 19:00 JST
+    - cron: '0 11 * * *'  # 20:00 JST
+  workflow_dispatch:  # 手動実行ボタン（テスト用）
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Python をセットアップ
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 依存ライブラリをインストール
+        run: pip install -r requirements.txt
+
+      - name: ニュース取得 → LINE 送信
+        env:
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+        run: python news_to_line.py

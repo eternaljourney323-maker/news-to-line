@@ -1,0 +1,15 @@
+# 機密情報・ローカル専用ファイル（絶対にコミットしない）
+news_config.json
+
+# ログ
+*.log
+launchd_stdout.log
+launchd_stderr.log
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/

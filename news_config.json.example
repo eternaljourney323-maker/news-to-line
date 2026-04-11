@@ -1,0 +1,22 @@
+{
+  "_comment": "このファイルを ~/Documents/news_config.json にコピーして編集してください",
+  "line_channel_access_token": "ここにLINE Channel Access Tokenを貼り付け",
+  "line_user_id": "ここに送信先のLINE User IDを貼り付け",
+  "feeds": [
+    {
+      "name": "Google News（テクノロジー）",
+      "url": "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtcGtHZ0pRS1JBQlAB?hl=ja&gl=JP&ceid=JP:ja",
+      "max_items": 5
+    },
+    {
+      "name": "Google News（ビジネス）",
+      "url": "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtcGtHZ0pRS1JBQlAB?hl=ja&gl=JP&ceid=JP:ja",
+      "max_items": 3
+    },
+    {
+      "name": "ITmedia",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/itmedia_all.xml",
+      "max_items": 3
+    }
+  ]
+}
