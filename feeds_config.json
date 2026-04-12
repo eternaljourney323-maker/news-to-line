@@ -30,6 +30,42 @@
     "max_items": 3
   },
   {
+    "name": "停電",
+    "type": "google_news",
+    "query": "停電",
+    "max_items": 3
+  },
+  {
+    "name": "電柱",
+    "type": "google_news",
+    "query": "電柱",
+    "max_items": 3
+  },
+  {
+    "name": "配電",
+    "type": "google_news",
+    "query": "配電",
+    "max_items": 3
+  },
+  {
+    "name": "東北電力",
+    "type": "google_news",
+    "query": "東北電力",
+    "max_items": 3
+  },
+  {
+    "name": "ドラクエ",
+    "type": "google_news",
+    "query": "ドラゴンクエスト",
+    "max_items": 3
+  },
+  {
+    "name": "マリオ",
+    "type": "google_news",
+    "query": "マリオ",
+    "max_items": 3
+  },
+  {
     "name": "X(Twitter) 日本トレンド",
     "type": "x_trends",
     "max_items": 10
