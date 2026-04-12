@@ -18,6 +18,8 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: write  # docs/data/news.json をコミット・プッシュするために必要
 
     steps:
       - name: リポジトリをチェックアウト
@@ -32,8 +34,17 @@ jobs:
       - name: 依存ライブラリをインストール
         run: pip install -r requirements.txt
 
-      - name: ニュース取得 → LINE 送信
+      - name: ニュース取得 → LINE 送信 → JSON 保存
         env:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+          NEWS_DATA_PATH: docs/data/news.json
         run: python news_to_line.py
+
+      - name: news.json をコミット・プッシュ
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/news.json
+          git diff --cached --quiet || git commit -m "chore: update news.json [skip ci]"
+          git push

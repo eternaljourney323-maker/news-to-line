@@ -133,35 +133,6 @@ def fetch_x_trends(max_items: int = 10) -> list:
 # メッセージ整形
 # ─────────────────────────────────────────────
 
-def format_section(feed_cfg: dict) -> str:
-    name      = feed_cfg.get("name", "フィード")
-    max_items = int(feed_cfg.get("max_items", 5))
-    feed_type = feed_cfg.get("type", "rss")
-
-    lines = [f"\n【{name}】"]
-    try:
-        if feed_type == "google_news":
-            items = fetch_google_news(feed_cfg.get("query", name), max_items)
-        elif feed_type == "x_trends":
-            items = fetch_x_trends(max_items)
-        else:
-            items = fetch_rss(feed_cfg["url"], max_items)
-
-        if not items:
-            lines.append("  （記事なし）")
-        for i, item in enumerate(items, 1):
-            lines.append(f"  {i}. {item['title']}")
-            if item.get("link") and feed_type != "x_trends":
-                lines.append(f"     {item['link']}")
-    except Exception as exc:
-        lines.append(f"  （取得失敗: {exc}）")
-
-    return "\n".join(lines)
-
-
-def format_message(feeds: list, now: datetime) -> str:
-    header = f"📰 {now.strftime('%Y/%m/%d %H:%M')} のニュース"
-    return header + "".join(format_section(f) for f in feeds)
 
 
 # ─────────────────────────────────────────────
@@ -183,15 +154,83 @@ def send_line(token: str, user_id: str, message: str) -> None:
 
 
 # ─────────────────────────────────────────────
+# JSON 保存（ホームページ用アーカイブ）
+# ─────────────────────────────────────────────
+
+MAX_HISTORY = 200  # 保持する最大エントリ数（約22日分）
+
+
+def collect_data(feeds: list, now: datetime) -> dict:
+    """各フィードのデータを dict 形式で収集して返す"""
+    entry: dict = {"ts": now.strftime("%Y-%m-%dT%H:%M:%S"), "feeds": []}
+    for feed_cfg in feeds:
+        name      = feed_cfg.get("name", "フィード")
+        max_items = int(feed_cfg.get("max_items", 5))
+        feed_type = feed_cfg.get("type", "rss")
+        section   = {"name": name, "items": []}
+        try:
+            if feed_type == "google_news":
+                items = fetch_google_news(feed_cfg.get("query", name), max_items)
+            elif feed_type == "x_trends":
+                items = fetch_x_trends(max_items)
+            else:
+                items = fetch_rss(feed_cfg["url"], max_items)
+            section["items"] = items
+        except Exception as exc:
+            section["error"] = str(exc)
+        entry["feeds"].append(section)
+    return entry
+
+
+def save_news_json(entry: dict, path: Path) -> None:
+    """news.json にエントリを追記し、MAX_HISTORY 件を超えた古いものを削除する"""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    history: list = []
+    if path.exists():
+        try:
+            with open(path, encoding="utf-8") as f:
+                history = json.load(f)
+        except Exception:
+            history = []
+    history.append(entry)
+    history = history[-MAX_HISTORY:]
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+    print(f"[OK] JSON 保存: {path} ({len(history)} 件)")
+
+
+# ─────────────────────────────────────────────
 # エントリーポイント
 # ─────────────────────────────────────────────
 
 def main() -> None:
     token, user_id, feeds = load_config()
     now = datetime.now()
-    message = format_message(feeds, now)
+
+    # データ収集（JSON 保存と LINE 送信で共用）
+    entry   = collect_data(feeds, now)
+    message = f"📰 {now.strftime('%Y/%m/%d %H:%M')} のニュース"
+    for section in entry["feeds"]:
+        message += f"\n\n【{section['name']}】"
+        if section.get("error"):
+            message += f"\n  （取得失敗: {section['error']}）"
+        elif not section["items"]:
+            message += "\n  （記事なし）"
+        else:
+            for i, item in enumerate(section["items"], 1):
+                message += f"\n  {i}. {item['title']}"
+                if item.get("link") and section["name"] != "X(Twitter) 日本トレンド":
+                    message += f"\n     {item['link']}"
+
     print(message)
     print()
+
+    # JSON 保存（NEWS_DATA_PATH が設定されている場合）
+    data_path = os.environ.get("NEWS_DATA_PATH", "")
+    if data_path:
+        save_news_json(entry, Path(data_path))
+
+    # LINE 送信
     send_line(token, user_id, message)
     print(f"[OK] LINE 送信完了 ({now.strftime('%Y-%m-%d %H:%M:%S')})")
 
