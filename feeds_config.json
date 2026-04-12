@@ -30,21 +30,21 @@
     "max_items": 3
   },
   {
-    "name": "停電",
+    "name": "八幡平市のニュース",
+    "type": "google_news",
+    "query": "八幡平市",
+    "max_items": 3
+  },
+  {
+    "name": "停電情報",
     "type": "google_news",
     "query": "停電",
     "max_items": 3
   },
   {
-    "name": "電柱",
+    "name": "電柱・配電",
     "type": "google_news",
-    "query": "電柱",
-    "max_items": 3
-  },
-  {
-    "name": "配電",
-    "type": "google_news",
-    "query": "配電",
+    "query": "電柱 OR 配電",
     "max_items": 3
   },
   {
@@ -54,15 +54,33 @@
     "max_items": 3
   },
   {
-    "name": "ドラクエ",
+    "name": "ドラゴンクエスト",
     "type": "google_news",
-    "query": "ドラゴンクエスト",
+    "query": "ドラクエ",
     "max_items": 3
   },
   {
     "name": "マリオ",
     "type": "google_news",
     "query": "マリオ",
+    "max_items": 3
+  },
+  {
+    "name": "アップル",
+    "type": "google_news",
+    "query": "アップル Apple",
+    "max_items": 3
+  },
+  {
+    "name": "中学受験",
+    "type": "google_news",
+    "query": "中学受験",
+    "max_items": 3
+  },
+  {
+    "name": "二華中学校",
+    "type": "google_news",
+    "query": "二華中",
     "max_items": 3
   },
   {
