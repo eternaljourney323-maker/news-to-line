@@ -209,18 +209,24 @@ def main() -> None:
 
     # データ収集（JSON 保存と LINE 送信で共用）
     entry   = collect_data(feeds, now)
+
+    # LINE メッセージ: タイトルのみ（リンクは省略。URL が長く5000字制限に引っかかるため）
+    LINE_MAX = 4900
     message = f"📰 {now.strftime('%Y/%m/%d %H:%M')} のニュース"
     for section in entry["feeds"]:
-        message += f"\n\n【{section['name']}】"
+        block = f"\n\n【{section['name']}】"
         if section.get("error"):
-            message += f"\n  （取得失敗: {section['error']}）"
+            block += f"\n  （取得失敗）"
         elif not section["items"]:
-            message += "\n  （記事なし）"
+            block += "\n  （記事なし）"
         else:
             for i, item in enumerate(section["items"], 1):
-                message += f"\n  {i}. {item['title']}"
-                if item.get("link") and section["name"] != "X(Twitter) 日本トレンド":
-                    message += f"\n     {item['link']}"
+                block += f"\n  {i}. {item['title']}"
+        # 5000字を超えそうな場合はそのカテゴリを追加しない
+        if len(message) + len(block) > LINE_MAX:
+            message += "\n\n（以降は省略 — ウェブサイトで全件閲覧できます）"
+            break
+        message += block
 
     print(message)
     print()
