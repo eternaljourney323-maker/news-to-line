@@ -48,5 +48,8 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/data/news.json
-          git diff --cached --quiet || git commit -m "chore: update news.json [skip ci]"
-          git push
+          git diff --cached --quiet && echo "変更なし。スキップ。" && exit 0
+          git commit -m "chore: update news.json [skip ci]"
+          # リモートの変更を取り込んでから push（競合対策）
+          git pull --rebase origin main
+          git push origin main
