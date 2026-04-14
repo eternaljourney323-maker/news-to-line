@@ -1,9 +1,9 @@
 [
   {
-    "name": "ITmedia",
+    "name": "はてなブックマーク 人気記事",
     "type": "rss",
-    "url": "https://rss.itmedia.co.jp/rss/2.0/itmedia_all.xml",
-    "max_items": 3
+    "url": "https://b.hatena.ne.jp/hotentry.rss",
+    "max_items": 5
   },
   {
     "name": "東北地方のニュース",
