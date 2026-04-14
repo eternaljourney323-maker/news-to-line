@@ -39,6 +39,7 @@ jobs:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
           NEWS_DATA_PATH: docs/data/news.json
+          TZ: Asia/Tokyo
         run: python news_to_line.py
 
       - name: news.json をコミット・プッシュ
