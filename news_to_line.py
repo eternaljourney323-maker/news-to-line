@@ -231,6 +231,13 @@ def main() -> None:
     print(message)
     print()
 
+    # まとめページURLを末尾に追加
+    news_site_url = os.environ.get(
+        "NEWS_SITE_URL",
+        "https://eternaljourney323-maker.github.io/news-to-line/"
+    )
+    message += f"\n\n🔗 全記事・リンクはこちら\n{news_site_url}"
+
     # JSON 保存（NEWS_DATA_PATH が設定されている場合）
     data_path = os.environ.get("NEWS_DATA_PATH", "")
     if data_path:
