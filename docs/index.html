@@ -42,7 +42,7 @@
         <span class="text-xl shrink-0">📰</span>
         <div class="min-w-0">
           <h1 class="text-base font-black text-slate-800 leading-tight">ニュースアーカイブ</h1>
-          <p id="lastUpdated" class="text-[10px] text-slate-400 leading-tight hidden">最終更新: —</p>
+          <p class="text-[10px] text-slate-400 leading-tight">📬 配信: 毎日 5・6・7・12・15・17・18・19・20時</p>
         </div>
       </div>
       <div class="flex items-center gap-2 shrink-0">
@@ -209,12 +209,7 @@ fetch(DATA_URL + '?t=' + Date.now())
     buildFilter(data);
     render(data);
     const latest = [...data].reverse()[0];
-    if (latest) {
-      const el = document.getElementById('lastUpdated');
-      el.textContent = `最終更新: ${fmtTs(latest.ts).full}`;
-      el.classList.remove('hidden');
-      showToast(`最終更新: ${fmtTs(latest.ts).full}`);
-    }
+    if (latest) showToast(`最終更新: ${fmtTs(latest.ts).full}`);
   })
   .catch(err => {
     document.getElementById('main').innerHTML = `
