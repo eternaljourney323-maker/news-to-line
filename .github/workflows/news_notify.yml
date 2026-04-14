@@ -2,16 +2,17 @@ name: LINE ニュース通知
 
 on:
   schedule:
-    # GitHub Actions の cron は UTC 基準。日本時間 (JST = UTC+9) に変換済み
-    - cron: '0 20 * * *'  #  5:00 JST
-    - cron: '0 21 * * *'  #  6:00 JST
-    - cron: '0 22 * * *'  #  7:00 JST
-    - cron: '0  3 * * *'  # 12:00 JST
-    - cron: '0  6 * * *'  # 15:00 JST
-    - cron: '0  8 * * *'  # 17:00 JST
-    - cron: '0  9 * * *'  # 18:00 JST
-    - cron: '0 10 * * *'  # 19:00 JST
-    - cron: '0 11 * * *'  # 20:00 JST
+    # GitHub Actions の cron は UTC 基準。JST = UTC+9
+    # 遅延を考慮して40分前倒しでスケジュール（目標時刻 = cron時刻 + 約40分）
+    - cron: '20 19 * * *'  #  4:20 JST → 目標  5:00 JST
+    - cron: '20 20 * * *'  #  5:20 JST → 目標  6:00 JST
+    - cron: '20 21 * * *'  #  6:20 JST → 目標  7:00 JST
+    - cron: '20  2 * * *'  # 11:20 JST → 目標 12:00 JST
+    - cron: '20  5 * * *'  # 14:20 JST → 目標 15:00 JST
+    - cron: '20  7 * * *'  # 16:20 JST → 目標 17:00 JST
+    - cron: '20  8 * * *'  # 17:20 JST → 目標 18:00 JST
+    - cron: '20  9 * * *'  # 18:20 JST → 目標 19:00 JST
+    - cron: '20 10 * * *'  # 19:20 JST → 目標 20:00 JST
   workflow_dispatch:  # 手動実行ボタン（テスト用）
 
 jobs:
