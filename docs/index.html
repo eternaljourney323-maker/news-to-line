@@ -38,11 +38,14 @@
   <!-- ヘッダー -->
   <header class="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-sm">
     <div class="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
-      <div class="flex items-center gap-2">
-        <span class="text-xl">📰</span>
-        <h1 class="text-base font-black text-slate-800">ニュースアーカイブ</h1>
+      <div class="flex items-center gap-2 min-w-0">
+        <span class="text-xl shrink-0">📰</span>
+        <div class="min-w-0">
+          <h1 class="text-base font-black text-slate-800 leading-tight">ニュースアーカイブ</h1>
+          <p id="lastUpdated" class="text-[10px] text-slate-400 leading-tight hidden">最終更新: —</p>
+        </div>
       </div>
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-2 shrink-0">
         <select id="feedFilter"
           class="text-xs border border-slate-200 rounded-lg px-2 py-1.5 bg-white text-slate-600 focus:outline-none focus:ring-2 focus:ring-primary">
           <option value="">すべてのカテゴリ</option>
@@ -206,7 +209,12 @@ fetch(DATA_URL + '?t=' + Date.now())
     buildFilter(data);
     render(data);
     const latest = [...data].reverse()[0];
-    if (latest) showToast(`最終更新: ${fmtTs(latest.ts).full}`);
+    if (latest) {
+      const el = document.getElementById('lastUpdated');
+      el.textContent = `最終更新: ${fmtTs(latest.ts).full}`;
+      el.classList.remove('hidden');
+      showToast(`最終更新: ${fmtTs(latest.ts).full}`);
+    }
   })
   .catch(err => {
     document.getElementById('main').innerHTML = `
