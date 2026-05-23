@@ -17,19 +17,34 @@ jobs:
       contents: write  # docs/data/news.json をコミット・プッシュするために必要
 
     steps:
+      - name: 今月は停止（LINE 月間上限）
+        id: gate
+        run: |
+          TODAY=$(TZ=Asia/Tokyo date +%Y%m%d)
+          if [ "$TODAY" -lt "20260601" ]; then
+            echo "2026年5月は LINE 月間上限のため通知を停止しています。6月1日から再開します。"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: リポジトリをチェックアウト
+        if: steps.gate.outputs.skip != 'true'
         uses: actions/checkout@v4
 
       - name: Python をセットアップ
+        if: steps.gate.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
 
       - name: 依存ライブラリをインストール
+        if: steps.gate.outputs.skip != 'true'
         run: pip install -r requirements.txt
 
       - name: ニュース取得 → LINE 送信 → JSON 保存
+        if: steps.gate.outputs.skip != 'true'
         env:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
@@ -38,6 +53,7 @@ jobs:
         run: python news_to_line.py
 
       - name: news.json をコミット・プッシュ
+        if: steps.gate.outputs.skip != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
