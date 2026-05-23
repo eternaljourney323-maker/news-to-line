@@ -140,17 +140,24 @@ def fetch_x_trends(max_items: int = 10) -> list:
 # ─────────────────────────────────────────────
 
 def send_line(token: str, user_id: str, message: str) -> None:
-    resp = requests.post(
-        "https://api.line.me/v2/bot/message/push",
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Content-Type": "application/json",
-        },
-        json={"to": user_id, "messages": [{"type": "text", "text": message}]},
-        timeout=30,
-    )
+    print(f"[INFO] LINE 送信開始 ({len(message)} 文字, user_id={user_id[:6]}...)")
+    try:
+        resp = requests.post(
+            "https://api.line.me/v2/bot/message/push",
+            headers={
+                "Authorization": f"Bearer {token}",
+                "Content-Type": "application/json",
+            },
+            json={"to": user_id, "messages": [{"type": "text", "text": message}]},
+            timeout=30,
+        )
+    except requests.RequestException as exc:
+        print(f"[ERROR] LINE API 接続失敗: {exc}")
+        raise
     if resp.status_code != 200:
-        raise RuntimeError(f"LINE API エラー {resp.status_code}: {resp.text}")
+        err = f"LINE API エラー {resp.status_code}: {resp.text}"
+        print(f"[ERROR] {err}")
+        raise RuntimeError(err)
 
 
 # ─────────────────────────────────────────────
@@ -211,7 +218,12 @@ def main() -> None:
     entry   = collect_data(feeds, now)
 
     # LINE メッセージ: タイトルのみ（リンクは省略。URL が長く5000字制限に引っかかるため）
-    LINE_MAX = 4900
+    news_site_url = os.environ.get(
+        "NEWS_SITE_URL",
+        "https://eternaljourney323-maker.github.io/news-to-line/"
+    )
+    footer = f"\n\n🔗 全記事・リンクはこちら\n{news_site_url}"
+    LINE_MAX = 5000 - len(footer)
     message = f"📰 {now.strftime('%Y/%m/%d %H:%M')} のニュース"
     for section in entry["feeds"]:
         block = f"\n\n【{section['name']}】"
@@ -228,15 +240,9 @@ def main() -> None:
             break
         message += block
 
+    message += footer
     print(message)
     print()
-
-    # まとめページURLを末尾に追加
-    news_site_url = os.environ.get(
-        "NEWS_SITE_URL",
-        "https://eternaljourney323-maker.github.io/news-to-line/"
-    )
-    message += f"\n\n🔗 全記事・リンクはこちら\n{news_site_url}"
 
     # JSON 保存（NEWS_DATA_PATH が設定されている場合）
     data_path = os.environ.get("NEWS_DATA_PATH", "")
@@ -251,6 +257,7 @@ def main() -> None:
 if __name__ == "__main__":
     try:
         main()
-    except Exception:
+    except Exception as exc:
+        print(f"[ERROR] 処理失敗: {exc}")
         traceback.print_exc()
         sys.exit(1)
