@@ -72,15 +72,9 @@
     "max_items": 3
   },
   {
-    "name": "中学受験",
+    "name": "管理職試験",
     "type": "google_news",
-    "query": "中学受験",
-    "max_items": 3
-  },
-  {
-    "name": "二華中学校",
-    "type": "google_news",
-    "query": "二華中",
+    "query": "管理職試験",
     "max_items": 3
   },
   {
