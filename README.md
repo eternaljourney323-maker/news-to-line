@@ -36,7 +36,7 @@ cp news_config.json.example ~/Documents/news_config.json
 ### 3. 動作確認（手動実行）
 
 ```bash
-cd "/Users/kt/Cursor/仕事/スクリプト・一時作業/news-to-line"
+cd "/Users/kt/src/news-to-line"
 python3 news_to_line.py
 ```
 
@@ -49,7 +49,7 @@ python3 news_to_line.py
 ### 4. plist を設置
 
 ```bash
-PROJECT_ROOT="/Users/kt/Cursor/仕事/スクリプト・一時作業/news-to-line"
+PROJECT_ROOT="/Users/kt/src/news-to-line"
 
 sed "s|__PROJECT_ROOT__|${PROJECT_ROOT}|g" \
   launchers/com.news.line-notify.plist.example \
