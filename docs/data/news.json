@@ -1,301 +1,5 @@
 [
   {
-    "ts": "2026-06-26T17:36:19",
-    "feeds": [
-      {
-        "name": "はてなブックマーク 人気記事",
-        "items": [
-          {
-            "title": "【速報】国旗損壊罪法成立で愛国心醸成と維新議員",
-            "link": "https://www.47news.jp/14530207.html"
-          },
-          {
-            "title": "階層都市断片集 - つくみず / 第1話 原子力潜水艦 | くらげバンチ",
-            "link": "https://kuragebunch.com/episode/12207421983890387909"
-          },
-          {
-            "title": "「趣味」って全部「文系」だよな",
-            "link": "https://anond.hatelabo.jp/20260623225257"
-          },
-          {
-            "title": "「有休は欠勤扱い、診断書出せ」と強要、団交拒否…JR東海“労使10年紛争”が最高裁で決着、組合“完全勝利”宣言 | 弁護士JPニュース",
-            "link": "https://www.ben54.jp/news/3647"
-          },
-          {
-            "title": "【速報】航空自衛隊を「航空宇宙自衛隊」へ　改正防衛省設置法などが成立（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-            "link": "https://news.yahoo.co.jp/articles/242799f661d992c9b74d5ce0f1deebd365d216b3"
-          }
-        ]
-      },
-      {
-        "name": "東北地方のニュース",
-        "items": [
-          {
-            "title": "東北地方で震度4の地震（日テレNEWS NNN） - Yahoo!ニュース",
-            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yZl9uLTFmRXFtaklfUXFIamc2ZzRVZm56b3dIb2NNZlB5S04wT1dqRjR1MFdQejZtcnRPZUpZRzhqSUh0bk1pR0JQTVVXTWhVZVJDd1FuV1RKakp1R01vakZxdS1xSC1HbFdqRmVMUXYwcDVKbnI5NldubVg2VVk?oc=5"
-          },
-          {
-            "title": "最大震度6強の東北地方　次の雨は26日で強雨や雷雨の恐れも　土砂災害に警戒を(気象予報士 吉田　友海 2026年06月25日) - tenki.jp",
-            "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE01UE16bmlWZjg2U3dsMkNLaVRmYnhORS1MV1lyRl9xRXBVdVVNZDk4VUZsNGlud3dHUzBKVERrV243QUlTNTQ1WEZsNjAzbnk5Nm9fNmZPdV9OX0c5RklENzYxWkh2X2RfbGdv0gFwQVVfeXFMUFM0azU2VzNiaEFlTXc4VWpsUVRfOV9CUHhPcXhuZzJaTmswRFdPSFZxbUhibTRobUJ3cUtNZ1hDTFBXZmN2NHEzQXpOYnlad3UtLWZVQmQzSEd6Q1h1R1AyNkkzbWJNWDBxMHd6ZjNSOQ?oc=5"
-          },
-          {
-            "title": "【青森で震度6強】“長い揺れ”ビルの外壁崩落 11人けが 東北地方で地震相次ぐ - テレ朝NEWS",
-            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE01Rk9NWTRLQldQeXlVNmxXUVRRdUk3MmhzWWVucnlWaUFNTkt3dEpaM2ptTmFjTjItNFJDMmQxTEt5bGpYMGQ5am9VWDBId3hSMlJsYnpQbml6Z0VnRlp2emtaNHE4TDdUTDRselVaMUVCUQ?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "宮城県のニュース",
-        "items": [
-          {
-            "title": "【組み合わせ】令和8年度 第75回宮城県中学校総合体育大会サッカー競技 - miyagi-fa.com",
-            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RdDdHVngxWnNCbW1CRzFCV0lLN3k1a0EzUkp4NGxmdTR2TlU2ZlhmanFZbmotcHRBNmdfWXJwUWl2Wm8zY1dCWnN1V3pld1ltdUpFbzFQckFYRGNuTTZwV3BvRjZBQ2IwUkZiNnZB?oc=5"
-          },
-          {
-            "title": "サッカーＷ杯躍進のカボベルデ 宮城県北の港町との深い関係「名前を知らない人はいない」 - 河北新報オンライン",
-            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWQm5PZlVsU2R5UHpSZWNtREJBUFo1U29SSC04NGQ0bUZobjRtdlRzem10VXBpNmx4WGVEY2pWaklfRk5YYkMtUVBuSWo1anRxTE5kNmxfUTJvNmtvRUdVdQ?oc=5"
-          },
-          {
-            "title": "【速報】夏の高校野球宮城県大会2026 組み合わせ決定 （全組み合わせ掲載）（tbc東北放送） - Yahoo!ニュース",
-            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mZlFFLWtuSFFkMXB6U3ZSOVZBSHBEbnJtUU1Rc3BTbEZFTE1EVXNUYkhHWlJWVDNiZ2ZKNGVqbUlOai1rMFVINWh3aDJmd0t6WHVYS0FuWTNEU1ZxZFA2RF9XRlhhQ1JlNDR4YVY4eUpfMUtKMGpoU1NEcTNJSGc?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "仙台市のニュース",
-        "items": [
-          {
-            "title": "仙台市に「2億円」マンション 全戸1億円超、申し込みが400件超 [宮城県] - 朝日新聞",
-            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcU11RHhfUTBFQW5tZDhxTTEtZzEyRURrdHhzWE13M053S2N2X1BJU0Q2U1RDalBjMEFzTWh3dEQ2eG5hTkJ0Z1R0Q2NuNm5xZW84bzZ1LU5LYVowTEE5ZVU2SGh3WVpmLUJVZGltd0c0VEpiakFXeldsMjNZTDJuQWZpNzZwck1ma2kwR0QwOWZ5bDdfOWhkR1JXQktvbU1YTG1RdA?oc=5"
-          },
-          {
-            "title": "造り手が営むワイン専門店 グラス片手に語らう時間を＜仙台市青葉区宮町／good’ay winery＞ - 河北新報オンライン",
-            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yTXRBbVBmeVNCQjFnOXhQUDNGZXZodllKeVowR3NCWmFmc3pBekhyNXo3Q0s2c1p1OTdqa253Q0g5dmNnNkNpOTRfTmYxSmFCUjhkSU1pSkFITmJHSFlSRg?oc=5"
-          },
-          {
-            "title": "【速報】高校野球宮城大会 63校56チームの組み合わせ決まる 2連覇目指す仙台育英の初戦は仙台ー宮城広瀬の勝者と - 河北新報オンライン",
-            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TSEpZU3R0TUZnT1o5VWZFMzFxYWprd3ZnMEs5ZnJsRUliZUFvLVVYNnU2cGtLclZZcDJ1bHVPTFBmcE9KRW02LUhDSDJmSDhDQW5aUk1IRkJTUWFLRmFQOQ?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "名取市のニュース",
-        "items": [
-          {
-            "title": "宮城県名取市の運送業者が破産開始決定 売上高好調も採算性に課題 負債総額は調査中（仙台放送） - Yahoo!ニュース",
-            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYUpEMkdKeTdCbDlTSUVCcXM3NmlYeDVNTEpldy1rbmpHR3dqMnhKc1RjX05xRHFVR2V3dzB5VWtHUko1eEVyNjNCWFZQT2FHdGd6VkxucjhnQkZ3V2lBQTlOcThuTTQwUGhKUm5qRm5NSWM4SktQWnVVRjk0M0stUWZhN0ZxSmU0Y3EwTEZR?oc=5"
-          },
-          {
-            "title": "「住みよさランキング」北海道・東北エリアで富谷市が1位 名取市が3位に（ミヤギテレビ） - Yahoo!ニュース",
-            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsbWpkR1lBSXA4SjF4Uk9TT1dNb08wTGM4R2NweWlBZGlBM2hSTEF0SlZNNko1NGVGSk1STDFYb09WcWNfa1ZnZ2VLaUxDUUNwSTRaQmhlVVYxRHFXb05fUlNlWl9DRmpDRDRaNG93aDI5NGhYTFJnbzFZa0c4MDQ?oc=5"
-          },
-          {
-            "title": "宮城県名取市の運送業者が破産開始決定 売上高好調も採算性に課題 負債総額は調査中 (仙台放送) - Yahoo!ニュース",
-            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVzVudzFmMGNPMmZkYmw5dzdVWWZ0X0Q3M2Y1bjV4TzJHUkxhR0NPUGVWZ2FyQWpYV1c5eFh4a3RxWjlJNzhEZ1Zfb205YjRIdHJCN0NUODhIcWd0OEl2SFF4THVJZGMwZzBmd1lWTDk4TUNfTXVxT3RpbXZJcmhyb2d4MXh0d3pxTEZFamRR?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "八幡平市のニュース",
-        "items": [
-          {
-            "title": "八幡平市の地震被害【岩手】 - IAT岩手朝日テレビ",
-            "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VUmN2TVlNYVNzUVQySkJJZ0huTFg3cXlrNGpoeC1JYnZsQ1ZHNnVxaXRtbmFmcFdoUGZUQW02ZXp4SDVodktZNGgyY2Y1S2lXOFFKTzhocw?oc=5"
-          },
-          {
-            "title": "不同意性交等の疑い、八幡平市と盛岡市の男を逮捕 - 岩手日報",
-            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00aUd1WEM5RlFZaGExR1c3MG0tNFBpcjFwN2lEN0tqSWlIYlVKMkp3aDB5X0YxZjBNMkRISG54dDJfQVhmV3BtQ21MOXF6X1hvdGxDTElvMHJoNEFmQ1BwMw?oc=5"
-          },
-          {
-            "title": "25日あさ、岩手県内で強い地震 盛岡市や二戸市、八幡平市、軽米町、普代村で震度5強を観測 - TBS NEWS DIG",
-            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TbEVQMGxiNUl4N01PWWNPOVU0dHByRWlNQ2lkQW9nUVJkOGxxYUZDNVItdTRNTW1KT0pBWmZ2N0lmY0RYWWU3N2twTEtNMGkwNVlaWEhZckxvVkliNTRlbWxwWm5nLTg?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "停電情報",
-        "items": [
-          {
-            "title": "【速報】千葉県内１９６０軒停電 - 千葉日報オンライン",
-            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45Ymg2bDBROW5vRnh2dU05YVdpUnZmQ3NLSzVxSDBQUlJJQzhEYVlVenZTUUl3cktUQldOM3Ftd3luZDg5Rms2MzVBb2lxY2FIdDlNamlQaEc?oc=5"
-          },
-          {
-            "title": "八戸市根城などで500戸停電 - デーリー東北",
-            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6RG5fcXZwWi1KeEE3WDR1TWMzdGN1ai0yMnQ3OWFFbEJEODg1X1dCTVpoT21LdXAybTZEcjFfUUNWMDQ1cy1kLXZBUDlHUXJXNlFtejF3Nld5ZF9YdEFSQjVDb2NNVVE?oc=5"
-          },
-          {
-            "title": "一時停電した所も…『W台風』東海地方に27日最接近へ 既に各地で激しい雨が降り岐阜では増水等の影響で鵜飼観覧が中止に - Yahoo!ニュース",
-            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EeEJmdy1GbXY2M0JmSVE2UDdIamhFZmdza3h3a3RoQnhfeGt2R1Jrak1WUW42TTAzWUJMT1NMc01Qdm4xQmdhOEN5WkNCQ09FNm9ERmI0YlBfX0VSMHpXWWtlc1djMHdoT2JCZ01reU14RGRVckNpY1hGNnVNNTg?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "電柱・配電",
-        "items": [
-          {
-            "title": "「プラチナくるみん認定」を取得しました－仕事と子育ての両立支援をさらに推進し、多様な人材が活躍できる環境づくりへ－ - kyuden.co.jp",
-            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qbkp2d3phSERDZXJSLS1lTVNPenlHNk9CTUFxOXpIOEROOW1XakdsMWNDOW9Yc3pGYnVtUXowVk80T1Zab0pkRUdGY3VRSUZ3QXhidEU1d1FqYmNZbzNJ?oc=5"
-          },
-          {
-            "title": "電線を巻き込み…倒木 電柱が倒れる被害も 周辺の住宅など最大1900戸が停電 三重･名張市 - TBS NEWS DIG",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42Q0VlYnZmbmhwa1p1OFRPaTdST0lxVTdBUFgwaElSNlZzLXdWcEZkZ05MUVlEOURpV3RjUFJLdGFjSnJVcW85aGhWUVVmeFNKYmV5alVnNWpKZw?oc=5"
-          },
-          {
-            "title": "「無電柱化」関連銘柄を解説！ 電線類の地中化工事や宅地開発における電柱の新設禁止などの「無電柱化」は、国や東京都などが長期的に進める\"政策テーマ”！ - ダイヤモンド・オンライン",
-            "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FNXhUQl8xUmNXVWVMUWQyYlpoc24zbzJnVnd1VGgyQjJ3Rm1fSlZ1V2FVdjRIMjVjTzNRd2dXTGN1SFVVcm9KQXpRa2FGbEpLSEYw?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "東北電力",
-        "items": [
-          {
-            "title": "東北電力・東北電力ネットワーク異動【名簿】 - 秋田魁新報電子版",
-            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jYWdocHNxdlhYU2hndk4wNjBjeE0yNURDajBBaW9USUkyYkJ0cjFvWG9tdUh2V2NmRGlkdWl4OEtOaHJ3eVRpVUhSbGlqOGhmUTZkc2pYZVhOa0N0ckF3Y21R?oc=5"
-          },
-          {
-            "title": "【人事異動情報】東北電力・東北電力ネットワーク（2026年7月1日付） - TBS NEWS DIG",
-            "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTnY4Tk1oeXExa2RQYnNOc3I4NW5DdURDQ0dfc3Y3VDhUakJreWdSYmloVWxGSkJONk4yZndzeWZYTzlVRlBQRmdlU2ctNEtUNTlsaEFTeTY1VkFia1NabFBFXzZ1NzVLMVRiVHFTR0g2TXlJMXozV0tvb2xqQ1JWZlY1d2pFbFB2TklDM1Z1RExrT296NXNxeGN5eUdCNzlrWXNBOTJMZTFrRjg2MFY2YUkyb3dpMmFQNmFMYjRsc3V5ZDJvZGM5OHp1QkYzRU9ocWlOUEwtRnRHOWhGYWUtRGFvQ3B3b1hXSkc3ZTNTX2hfRDIwb0E?oc=5"
-          },
-          {
-            "title": "東北電力、太陽光由来の電気供給 ツルハ店舗に - 日本経済新聞",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xQVdvcVNtWUhRNnU3VV8yUDgtTXZJRWMwTE9QdkNGSGF3Tk1XRGlsUGZxQ21tUE9Qa0EyaUFRcE5wTXZQSWVQdGxEQmdLcFh2bkg5US1wVGU1STE1YVc0S2ZIYW9VUFdvQVNSMw?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "ドラゴンクエスト",
-        "items": [
-          {
-            "title": "『ドラクエ10』始めるならマジで今。最終章始動＆完全1人プレイが可能な神アプデで“ソロ活勢”大歓喜へ。初心者＆復帰勢も必見 - 電撃オンライン",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fbGJxaHRVMVpFYTIzNzNacjVsUnFZM0xKSm9jQkgxYVRQNWpnZ2dHbUVJOHB2a01DZDBSeFhJTXljczhmazlJejhQUnpWODEtcjhlVlFJcjZqUQ?oc=5"
-          },
-          {
-            "title": "即完売した『ドラクエ』40周年記念「エイトザタラソ」コラボアイテムが再販へ！遊び心満載なホイミスライムのポンプデザイン - インサイド",
-            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFByWG95TDNFRVNzUzZCd2d1WG5WbURjcy1Namt0ZFU4RjFIcGlIOGVSeHpMeGJmRWpZX1VnUmZrUDcyOHdGak02YXVfRmszWGYxdzZwaHJVazRYbVpKZW56WTZHbTloNEtnZ1E?oc=5"
-          },
-          {
-            "title": "【ドラクエ】ホイミスライムの限定シャンプーが明日24日11時より限定販売 - 電撃オンライン",
-            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10TkY1TGxGeGxySEgwRW90VlFHbTMxZFRLZDJlUHh0QTdobnV1cW1QU1QwUUdXaHJHRTc3amJrSHltd3dVRF9RczBXUFp6S3FMUUFMU1YwOUVOQQ?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "マリオ",
-        "items": [
-          {
-            "title": "ビデオゲーム史上最高額、約4億8354万円で落札 未開封『スーパーマリオブラザーズ』 これまでの記録を1億円以上更新 - Yahoo!ニュース",
-            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrNmNMSm95Z1kxSEp3WlhfRFUzOTE2UG5nVk5mRjY3VlRoX0dMTVkxdVlTYWoxdjhKWnJXaXl5QUtkbHN0SjFRSDVBYU9ublhFeERva2FvZTFsTVQ3dkdFaTlfV1JZTVlWN1Y0Q0FtaHd3dW1qc3FtaE5VaDRjNTA?oc=5"
-          },
-          {
-            "title": "『マリオカード ワールド』の『マリオ64』『マリオカート64』『ヨッシーストーリー』楽曲がニンテンドーミュージックに追加 - 電ファミニコゲーマー",
-            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10M3lXOFEzRDc2ckcyaTBqaVpPdDQ1RzdWeF9VdGktQm9uZllEdzdEQlc5bFpxdE9WRm9Ea1NHelcyb3dRMWozbUNNbkNKSjQ0c0l2cFNYaTM?oc=5"
-          },
-          {
-            "title": "『マリオ』に国民的RPG『ドラクエ』…レトロゲームに大はしゃぎ!! - TVer",
-            "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qaXpSS2NKX0toSHV1VWx2REVTV0dGZzZlYVhjakljZzNBRkRUbEVGdC1sNjhKanZsU2JfZ3BueHd1ZTZ1SHdNcWlxVQ?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "アップル",
-        "items": [
-          {
-            "title": "アップル【AAPL】：株価・株式情報 - Yahoo!ファイナンス",
-            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zdy1BbWVMbngtc25KdnZTclVZbTFNZ1h4dVZCeTZ6c2pUM1k2SVFzZTdiaHZqTFFKZ1pvcUFrdjlhMUVjYXRLLWdjTmZ5Y28?oc=5"
-          },
-          {
-            "title": "「Mac」「iPad」突如値上げの理由は？ アップル「かつてない上昇幅」 海外報道 - ITmedia",
-            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oY2t5eXNzcHRtenNtTnpuZndhY1FCd2JLcGxSdXRTSlk5cVp1ai0zVW16VkNvdkxLM3RCR1Jxdk1EeGVkQmZzN0FmeXpGMUVxSV9oUVpmY2ZnOXF5T2pVUHJkbEFtRUh2RERMYg?oc=5"
-          },
-          {
-            "title": "アップルがＭａｃ・ｉＰａｄ値上げ、メモリー高騰で 他社も追随か - Reuters",
-            "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObmpqMmtJcUpSUV9JVkN2djlZUXVMWTFFSEJtQ1Yzd3lZcW1VcXpKOWhDVFFiVURLYlpzUXllenBjT1JzaDhPMnpGeWk2Vm51N1VCci0zZDh5SC1aRU02OVRiS2RWdWlvVXNDZktpalpRVHdjX1lyVGNNRHd0MUpQSjJQelV3cndOV1Bj?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "中学受験",
-        "items": [
-          {
-            "title": "令和のリアル：小6春に「うつ状態」 中学受験のやめ時を惑わせた「魔物」とは - 毎日新聞",
-            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aTTZqa1hRSFdaTk1JMGdjQ25jV2tpTDN0ZUJVUGZ5Y1lESHVMb2FVd1lLT2VpODZZY1VjQXdrY1VwMmsyVHI4N3lFUjZ2RVBDUm1zbURpNnRORmVoLUJKa25rYjkzVVVO?oc=5"
-          },
-          {
-            "title": "小4で辞めた中学受験、小5の3学期に「受験する」と心変わり。娘の目指す都立中高一貫校には「偏差値が13足りない」 - Yahoo!ニュース",
-            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOE9VcWdHY2ctODRQVktkV2VQM3JFczhlb1BsYnJuOUYtbWQxRUNsSmJkS0E2aGY3b1AwdzVyZHJNeUhBX0lxRmR1RVpWOFJ6MzhXbmVhVnNaZHBWeUFRT0pkdHdKYXFIT3JGSWJpQUcyV09Ec0ZWWF8xM01MRFRKelJUMTh4a01Z?oc=5"
-          },
-          {
-            "title": "令和のリアル：中学受験に懐疑的な母、「二月の勝者」を読んで伴走した結果は？ - 毎日新聞",
-            "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KX3c0NUMxQ20yWC1fRkRmMGtoT1ZOUzYwdVhReFF1NHhFSjBaZGNCVzVOSGlGQVVNRmpoWGZrOFZnd01Gd1ZQUE1DakwybmxrbUVFcEFWLURWOHZ4VEtnTUtkVkY1YXVr?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "二華中学校",
-        "items": [
-          {
-            "title": "「せいとをさしころす」仙台二華中学・高校の元非常勤講師を逮捕（khb東日本放送） - Yahoo!ニュース",
-            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kcTY0TG5MZDRuWEx4VEYwdFBva2N1UzZrQ0RMTUhtM1llUkhHYUEwVWdGZ3FKc05HMHdPTUZxVnlNVHE1d2U0MkcyQ3VmR0RsVUdQdERMcWpCLXNlZGxHSjhWOF9XX0NQX2o2UUlNdzAxMy15LWVPd0hOekx4NXc?oc=5"
-          },
-          {
-            "title": "一足早く授業再開、仙台二華中学校「今年の干支・午のように力強く前に進む」（仙台市） - 日テレNEWS NNN",
-            "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR0l4bnNHSHFvSzI2Vl9WUGpYc3pPcm5QQzRReWlxMU5GSWxuMkZsYU5WZXZhdVdpd0dEbmFlWFI1UnZ3U1NZWV9hX3lPZzRIZlA5MGlLRFFvTnc1U0RIQXZ4RUFBTnZDUXVTRUFJUFRJeFBIS000eC0xb1owZFNQaTlqaVdXdnc?oc=5"
-          },
-          {
-            "title": "小学４年生から中学３年生まで！受験料無料の二高・一高・三高、二華中・青陵中必勝模試があるみたい - 河北新報オンライン",
-            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CWFh2aGUwZEF0RDkxaDk2azFFaVphdFU1VUwwcWloZUk3bTdhS1hhU2loRkUxWXZTdDBPSWNDN09WVkZ3REVnVGhFQjZiZ2h1MWc0RDFHZ25GRHNJTzBRMERR?oc=5"
-          }
-        ]
-      },
-      {
-        "name": "X(Twitter) 日本トレンド",
-        "items": [
-          {
-            "title": "スネージナヤ",
-            "link": "https://twitter.com/search?q=%E3%82%B9%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%8A%E3%83%A4"
-          },
-          {
-            "title": "ブラジル",
-            "link": "https://twitter.com/search?q=%E3%83%96%E3%83%A9%E3%82%B8%E3%83%AB"
-          },
-          {
-            "title": "ケロロ軍曹",
-            "link": "https://twitter.com/search?q=%E3%82%B1%E3%83%AD%E3%83%AD%E8%BB%8D%E6%9B%B9"
-          },
-          {
-            "title": "オデット",
-            "link": "https://twitter.com/search?q=%E3%82%AA%E3%83%87%E3%83%83%E3%83%88"
-          },
-          {
-            "title": "#金曜日のごほうびにザ・クレープ",
-            "link": "https://twitter.com/search?q=%23%E9%87%91%E6%9B%9C%E6%97%A5%E3%81%AE%E3%81%94%E3%81%BB%E3%81%86%E3%81%B3%E3%81%AB%E3%82%B6%E3%83%BB%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%97"
-          },
-          {
-            "title": "バレリー",
-            "link": "https://twitter.com/search?q=%E3%83%90%E3%83%AC%E3%83%AA%E3%83%BC"
-          },
-          {
-            "title": "三木さん",
-            "link": "https://twitter.com/search?q=%E4%B8%89%E6%9C%A8%E3%81%95%E3%82%93"
-          },
-          {
-            "title": "カミーユ",
-            "link": "https://twitter.com/search?q=%E3%82%AB%E3%83%9F%E3%83%BC%E3%83%A6"
-          },
-          {
-            "title": "韓国株式市場",
-            "link": "https://twitter.com/search?q=%E9%9F%93%E5%9B%BD%E6%A0%AA%E5%BC%8F%E5%B8%82%E5%A0%B4"
-          },
-          {
-            "title": "#ゴンチャの新ペットボトル",
-            "link": "https://twitter.com/search?q=%23%E3%82%B4%E3%83%B3%E3%83%81%E3%83%A3%E3%81%AE%E6%96%B0%E3%83%9A%E3%83%83%E3%83%88%E3%83%9C%E3%83%88%E3%83%AB"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "ts": "2026-06-27T06:40:51",
     "feeds": [
       {
@@ -56819,6 +56523,285 @@
           {
             "title": "生活道路",
             "link": "https://twitter.com/search?q=%E7%94%9F%E6%B4%BB%E9%81%93%E8%B7%AF"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ts": "2026-09-01T14:10:28",
+    "feeds": [
+      {
+        "name": "はてなブックマーク 人気記事",
+        "items": [
+          {
+            "title": "プレイングマネージャーが“パンク寸前”になる理由　管理職に求められる5つの仕事 [1/2] | ログミーBusiness",
+            "link": "https://logmi.jp/main/management/333618"
+          },
+          {
+            "title": "総務省、「pixiv」「note」など情プラ法の「大規模プラットフォーム事業者」に追加、誹謗中傷への迅速な対応など求める　「ガールズちゃんねる」「好き嫌い.com」含む4者が対象",
+            "link": "https://internet.watch.impress.co.jp/docs/news/2137041.html"
+          },
+          {
+            "title": "VTuberオリキャラメーカー — 画像1枚から、VTuberを始めよう",
+            "link": "https://vtuber-ocm.com/"
+          },
+          {
+            "title": "「自分の見た目が気に入らないから結婚しない」のどこがバカみたいなんだ？",
+            "link": "https://anond.hatelabo.jp/20260901082136"
+          },
+          {
+            "title": "J:COMを使っているとPlumeルーターによってDNSブロッキングされる可能性がある 18.204.152.241 問題の顛末 - debiruはてなメモ",
+            "link": "https://debiru.hatenablog.com/entry/20260831/jcom-plume-dns-blocking"
+          }
+        ]
+      },
+      {
+        "name": "東北地方のニュース",
+        "items": [
+          {
+            "title": "東北地方で9月9日頃から「かなりの高温」か 気象庁が高温に関する早期天候情報を発表 - 日テレNEWS NNN",
+            "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbzhxSUFqcVU1QmZXLWpQODFSUFNqNDdpZmxTbXJ4bFlXcG80SlFOd0haOVNtV3BYNklPQk1hR2tfMVhxQm4tbmFUX0NyQ0k2dUZMSWw1bV9zUEhmbHF5ZHlqQ2tyMkdDRXNfcTI1SkhzLUFkTDlFYVF1MU5DU19FQTFFV2h3S0k?oc=5"
+          },
+          {
+            "title": "【2週間気温予報】今後の気温はどうなる？ 東北地方と東・西日本の気温は向こう3日間程度は高く、かなり高い日も その後は平年並か低くなるが...今後の全国の天気を画像で 気象庁 - TBS NEWS DIG",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9JTVh2aXBFdHREZWc3bE5qWTJyM1owaWZ2UzNEXzROZDJHZEE4ZUNzTTB2UUxEVFByb002YmNnaDd0czBqaVA2ZVNKVFFMZmE0cVdtNGRoZ0hsdw?oc=5"
+          },
+          {
+            "title": "9月7日〜9日頃から「この時期としては10年に1度程度しか起きないような著しい高温」となる可能性が高まっている…気象庁が「高温に関する早期天候情報」発表【北海道太平洋側・東北・関東甲信・北陸・東海・近畿・中国・四国・九州】（BSS山陰放送） - Yahoo!ニュース",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yZm9uWmx6X0NXQWE5SzZfNXdZd3RIWGppaktNbjJ2R1EwUkR5Y05YaXphdWNzWUNxTDNWZC0tVE8yQkFtSGVGNGU0bHlZNUdBRnpEZWJKVmVaUExzaFpEdVJfdU1nbzFSYVZvLWI4MFBHRGZleDhYeTYwNmx5MFU?oc=5"
+          }
+        ]
+      },
+      {
+        "name": "宮城県のニュース",
+        "items": [
+          {
+            "title": "〈ビジネスTODAY〉宮城県、SKを熱烈誘致 半導体工場の雇用創出期待 韓国政府は技術流出警戒 - 日本経済新聞",
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGODR1R0EzMHUtRE80Z1cxRTJsRzZSX2tRUzY2djJwNjc1YkZmRUxaZ2VEanlIcUt5cFRQc09nU1NEdXJydjhHVjd6NG5hVmJqVHRxNFdoalpPSUtDNGRVbW0xUXdtREg1UERPRw?oc=5"
+          },
+          {
+            "title": "宮城県での半導体工場建設には言及せず 韓国ＳＫグループ崔泰源会長（khb東日本放送） - Yahoo!ニュース",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5lSzM5OHl5bWFPekp6UFNtdGFlc0V2TEhlYVJ0X3N4SjBVb0RYRkxYc0N1Z1NIVWxRTE9Feko5dnFONmp3OWVXd180b01VVTFUSEVlMXI5aTY5QTBEWnd5NDNmVkY5bkc1Vk9FYmRpNTdocFV5c2pheGFWNlNqeDA?oc=5"
+          },
+          {
+            "title": "メモリ不足は「2030年末まで続く」―業界大手SKハイニックスCEOが見解述べる。宮城県では工場建設の可能性も - Game*Spark",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9kNkNRYnhTdjZGUk83NERvLWNQRUkxbWFabEZiY0ZqZlpObkFiLW5NXzN3YkNHQ1BqZ3FBMkdmR0hzbFFFcE5aVjUzZ2ppRVJ4WDdKVEJhanM0S1dYanA0bmFxNklHZw?oc=5"
+          }
+        ]
+      },
+      {
+        "name": "仙台市のニュース",
+        "items": [
+          {
+            "title": "「新宮沢橋」9月13日にいよいよ開通 仙台市が5日に無料見学会 - 河北新報オンライン",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KRzNSN2h6NmRRcWlpM1BBUG56SHpwZUlRVm50NDgwQ3FOWlo5WmE5YV9Manh4V2FHM2JwRlFIWnlMbTRJX0drOFNLUHlhenA5TFQ2OUdWaWxEbHVxb0ZlRw?oc=5"
+          },
+          {
+            "title": "ｉｃｓｃａスマホからチャージ可能に 仙台市交通局がアプリ導入 - khb東日本放送",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5NTB5TXA5NF9JQzFibkFZbElLT2FCeXM3WGdLNTR3c1c1OGxhamtCbHZDQWtmVVJ3YnEzdHlrMGFZWUV6bW9EcGxRbnJ4cTQ?oc=5"
+          },
+          {
+            "title": "捨てられたバッテリーが原因か 仙台市のゴミ置き場で未明に火事（tbc東北放送） - Yahoo!ニュース",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhTER6eTM5RHRWaDhuWHYtdUtlVi1NYlpiS3RiRlNucmNVTHpCOWU1d1hBcDU5b3hfNTNHTVhQbGY1YXpldjJLdU9LVGdudTVManJGbUVveU9sNURwSXR4UXVIdndwT3Fyd3A5dHVlemFadE5ETUNhN3dBQTBtRm8?oc=5"
+          }
+        ]
+      },
+      {
+        "name": "名取市のニュース",
+        "items": [
+          {
+            "title": "【名取市】8/21「仙建総合研修センター」の北釜駅🚃下増田にこんな施設があるのをご存じですか？... - 選挙ドットコム",
+            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBITEFUNkQ5WWhtX0NEd2dBT0p0bFAyc25YdVZGdG4yQjdVWG5seGthd25HZnRwZ2ZzS2RTWEN6ckNRVVV6bG15YWlNMEMtaVV6bnFLaURmbWJLNWRhV2Rn?oc=5"
+          },
+          {
+            "title": "ふわりぃ仙台名取店の10日間天気 週末の天気・紫外線情報【お出かけスポット天気】 - tenki.jp",
+            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ySVNqeDlGZ0tQSjlhZmRtZU8yMEp3R2d1RUlXamE5Tl81RjloWXpObTgtdmJjcXlHUWpmbDlFUTdNSHA3c3VIbVBISk1GVzR1VzBzbW51M1VrTzdabHFJ?oc=5"
+          },
+          {
+            "title": "【名取市】『はるやま POP UP SHOP』を、2026年9月1日-23日に開催するみたい - 河北新報オンライン",
+            "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TQ2x4RGk2MjJuWUk3cmtldmRIRkZhV21PMkhubDNjTGZMNkRycVgxZXQ2SFZZOTdxWWNSbTJlRERYWXRWb3hma2UtNHY3c01pdXV6MjVWZWFEaUtab0g1MnN3?oc=5"
+          }
+        ]
+      },
+      {
+        "name": "八幡平市のニュース",
+        "items": [
+          {
+            "title": "「ひつじラーメン」誕生 アクセントは九条ネギと焼き麩 八幡平市の松っちゃん市場 - 岩手日報",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05Q0JxcDFkdEl6ZjkyMEs1MkxOejk1aDduYWMxWnF4RmhUNGw0X0RoNDVyZ0ZXSGhiUVNVdE1GeG0tdmc2WGhjM25pVk9scHpraFR5bVdXOGEzUktQdXl2aQ?oc=5"
+          },
+          {
+            "title": "八幡平市のライブカメラ - ウェザーニュース",
+            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE02Ukx2YmhqNl9STU5fSWZMTFg5TUxkeEtseDlCYWZ0YmNJUFFYMDhsYWJ2cnRleGxRSm9aZnpTOEdTaGZDaDd5anItdF9ra1Bzd3FDdGpoanQtYWQwd2s2eENkaGphR3pYdmJraTQ3aGcxUQ?oc=5"
+          },
+          {
+            "title": "八幡平市にレベル4土砂災害危険警報 米代川・田山で氾濫危険水位超過 岩手県内5市町村にレベル3大雨警報 - 岩手日報",
+            "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PcmJaVHdQZE1Pb082YjNxdThPZWhNcWZTZjNFNlQ1SHc0ai1RRnJyV29kLWhmNWpfRFotaThWcW9tOEpqX3R6RVFTanFSaXhkYkkxX1pST2trRjE3MEpSaA?oc=5"
+          }
+        ]
+      },
+      {
+        "name": "停電情報",
+        "items": [
+          {
+            "title": "茨城県で約12000軒停電【まとめ】（茨城新聞クロスアイ） - Yahoo!ニュース",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBabGxuT3VFSjlHY3Y0dHVkWV9MNUxleWpEYXNxNDh1em1qRm8tYTAzVjdJdDFBOW5yQ3g2Vl8yTnJiV3psS19NekhIVHY1SGpXaE1aR0VWcWMteUh6SnhhVVdqbjRsMjZra1d4Q0FSdmgtRjh5dVNpal9jMVd4VkU?oc=5"
+          },
+          {
+            "title": "〔東京電力パワーグリッド〕茨城県つくば市での停電は復旧(1日08時00分現在) - ｄメニューニュース",
+            "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQODZCeExRcHNKdWg0N250OFdabDZKZGJLVzFkNjI3Y1lZbk03UnBKdTBQek5Pd2hsU1c3ZlF1MHBwR1NGMlVGRXVKcklWQWtWc0I2NS11NkpZdjM1RmhSd2llX3hUak5xcnNpWENIeUNFajFfVGl1VVp4SGlYZjJYZ1RRM1VUTEt20gGOAUFVX3lxTE5rQW1zYmRjSVNiVGRTWTVlamxTd3ZoM0xra3ZFX1FNQk0wMzJrNkVBeEUxMWM0ZXVPLXlraWRpd0k5U1NFc0kwdm5nczRsQ3Nwa0lQZGpTNDl5WFB3cHBqcmNVX19kTnV4QXNIUzZKTlRuMGZUMGtrOUFPYjhVX0hZbXd4SkxHMmh3eTNYenc?oc=5"
+          },
+          {
+            "title": "茨城 つくば市とつくばみらい市 約１万２６００戸で停電 - NHKニュース",
+            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5BNTBRTktoZ0FubXg4MWtjNGhYREp6N2t5NHh5UnQ5X05uMndBQ3hkbW1oR1J0SmZhc2tfT0JsS1FOVmFxMG5VQUl4SUZsUDd6ZXQ2WVgyRzQ?oc=5"
+          }
+        ]
+      },
+      {
+        "name": "電柱・配電",
+        "items": [
+          {
+            "title": "軽乗用車が電柱に衝突し76歳女性が大けが 国道112号の直進道路で事故（山形・鶴岡市） - TBS NEWS DIG",
+            "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TdWlwMDBZREFORzdoaTZqTHVRQklJb3ktLWtKS0JlZmlsX1BranBhaHZ0NjV5ZkpKRVFCUGhKU0cyVUhMQld0SWd1SDEzVnZJUmtXQlZjOE5DUQ?oc=5"
+          },
+          {
+            "title": "軽乗用車が電柱に衝突し76歳女性が大けが 国道112号の直進道路で事故（山形・鶴岡市）（テレビユー山形） - Yahoo!ニュース",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLREJ4Nng3ZU5BMnVHNDhwNzB2eVNhcnRvMHdENXJYY2R5ZUYxS3VVVGRwRkxnVENfM1V5UDN1Y1JQV2F6RjRfdGN5M2N1SS1hZm4xLTRHa3JZRjFkbml3WTZLYXVBRDNYVmNvblE1azcxamxtQWRPbTRZa3NpZGM?oc=5"
+          },
+          {
+            "title": "電源休廃止、１年前までに協議／送配電へ早期に情報提供 – - 電気新聞ウェブサイト",
+            "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rUDRLdXNNek5kQ1FqRnJOUnJENDZCcGxlVFVQelBYa1ZjY09YOGRjdFU3TjRRQmIxV2NoWjYyU0FUUGNRZVdSOUd2bGM2dFVoNUVBZ0lqSQ?oc=5"
+          }
+        ]
+      },
+      {
+        "name": "東北電力",
+        "items": [
+          {
+            "title": "東北電力10月請求の電気料金 前月比416円上がる見通し - TBS NEWS DIG",
+            "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxONDBfTWxOTXJ5ajA1eUxpMjVZQzF0aUh1a3hla0pZYjM2eHZwZTJzQ0tKYTJLTkdfQU5fVlVwTVh2elVNVXF1NnBtcHJhT1h1eVBpa2d3a0g4Ympib2lhM2ROZ0tBV2JwV3UxZEE0dFdaREFCUk14QVBqYkFoaUpKM0FUZ18zRUZmbnF3Rk5zZGU1aWhUa2lybGFoSnUzLW1nb1FZbTB5dWJYX0h0WjdPcXVsM2kxVW5teml2Ry1Kdkt4b1ZzMmlIZUtObUJJVWhyTkJuTnQ5R2MyakhUb3hxRkRMME5VWnVSazhsd3JNM3ZNaF9TRXc?oc=5"
+          },
+          {
+            "title": "東北電力の電気料金 ９月使用分は３か月ぶり値上がり - NHKニュース",
+            "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oZFlZUVJURUd1RkZENlJGYTR2clJ0Z195b0JsWGlvNG9lb0tlRVdfdkZPSTBaT0xWTElzUGZZQzRCNDlOVnJRNTFUUE1McUFsYTRLQWJnRUU?oc=5"
+          },
+          {
+            "title": "【2026年8月】東北電力のキャンペーンを解説！お得な利用方法や注意点も紹介 - マイベスト",
+            "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSem1vRzRPY2R3VVdzZ09tR0RNX252M0FKS1RUQkJQVnlDX2dXY2hEdjFyZXlSN053WG5RX3VTMTc1c29NRHEzcA?oc=5"
+          }
+        ]
+      },
+      {
+        "name": "ドラゴンクエスト",
+        "items": [
+          {
+            "title": "『ドラクエ』見た目が良すぎる「スラミチの麻雀牌キーホルダー」に注目！「ギガンテス＆アトラス フィギュア」ほか4プライズが9月順次展開 - inside-games.jp",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2X044UHNvZ21Pbkx0MzYzYWJMSjY2YkxLWW5XVHhtS1RFWEpwb2NlOVh0NF9CREowTkJOV0JtelR6VDdGS3pKZkgydmZhU1hxOElrTnNEbHBMNXlLVEVxQnpNOHcwVlBZMmc?oc=5"
+          },
+          {
+            "title": "『ドラクエ』40周年記念くじがオンライン販売！「ルーラ」が鳴るサウンドブロック、歴代勇者＆スライムのフィギュアなど、シリーズを振り返る景品盛りだくさん（インサイド） - Yahoo!ニュース",
+            "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZNWI1WW0yOE43TjAzRUVNazhBaEpwYWNKRXhTa2tjUmVDX1l5WDRNUHM0R3dLRDhDWnRmSXgzNUtFY2lkTFl2aHMzWlJNTXpOWjEyWTFsVU5LdThQQ0pESlEtVWYxZUZOY09SOU5ncXFQMkdMVHlrQ0JKUmVGdUk?oc=5"
+          },
+          {
+            "title": "『ドラクエ』40周年記念くじがオンライン販売！「ルーラ」が鳴るサウンドブロック、歴代勇者＆スライムのフィギュアなど、シリーズを振り返る景品盛りだくさん 2枚目の写真・画像 - inside-games.jp",
+            "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1oM19kdWJjVmVxZnBhY3pVU3RXNE14c3FIc1VyMmJIODUzSVF4X3BRRk51TGc1UEh2UlRVYVJRWFRpQ01aZEZTWHZpNFNUTXVYRDJURUEwRXQyeFp5RTV4UHFqNlI1UkNXS245S2EtZjl0dG56NURKc09R?oc=5"
+          }
+        ]
+      },
+      {
+        "name": "マリオ",
+        "items": [
+          {
+            "title": "タイトーよりプライズ品「マリオカートワールド ハンディクリーナー」が9月下旬登場！ - Nintendo DREAM WEB",
+            "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBneG5jTTRXZXQ0ZnRWOEMwVzUwTFNpMm1zNGNRZWZIQkRpcldzS19ZbUFOTFFmcUQwOUJtbkJtUUZ6Q1d2eHo5U05JcW55aDg?oc=5"
+          },
+          {
+            "title": "【2026年9月サ終ゲームまとめ】任天堂「マリオカート ツアー」がいよいよサービス終了 - GAME Watch",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MT2JVejJPMy1CUjVsanZ1R0Z5d0dBV3d6QTVTZm5kVHNOTHYyUk1VMVJTaVd0eXNKNmxVazV6b0JRWmhhcVdJOXBtWXBYVHlkbm9PU1ROTEl2ZHdfZ3dmeDdDWkFjZw?oc=5"
+          },
+          {
+            "title": "『マリオカート ワールド』デザインのスイッチ2コントローラが発売。背面に自由にボタンを割り当てられる追加ボタンも搭載した本格派 - ファミ通",
+            "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1RUWhuQ3BrZ0pZWHRsQ2FxdGJBVklMQl82cjVQbW9YM1kySVB3aTVQajNIRlMtNjhBMGlBUmNXZFgzUGRiTVN5MktjNTQ3aEJNMmFFaDR5MA?oc=5"
+          }
+        ]
+      },
+      {
+        "name": "アップル",
+        "items": [
+          {
+            "title": "アップルの折りたたみiPhone、将来的に「Apple Pencil」対応の可能性も - CNET Japan",
+            "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4UnVZWnJvRWZWU2dvYThJT3ZDQjI4ZVZiMW9QNXB1Zjk3dGZsM21IMExZR2d6ZG93aDNKZXkzeEdOVXRVTG5aN0M5Z0hTZEVTdGc?oc=5"
+          },
+          {
+            "title": "間もなくの発表が予想されるApple Watch Ultra 4のウワサまとめ - GIGAZINE",
+            "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xT3ZILThaNkN2ZTUwQ19kV0ZQWFhKUkFPczhITHplbkdDRUNlRW1lRnZ1Wi1ETDREOUFHazFKa0lxekJWZmtCWm4yQ3dmaklTWHdNWUpadndlNXRpVEpTVGpHeHVSWEdvcWtuLXp3?oc=5"
+          },
+          {
+            "title": "アップル発表会は日本時間9月10日開催。「iPhone 18」と折りたたみ版の価格に注目 - Business Insider Japan",
+            "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOE02NVB5UG1QelRzMUNmQTI4bEV0RlFIRHppLVpVbkU2Yi0xZzd3UWdwSXJpTFpxdDJGN1I3LXBNeWFoWGROT2QtcjZsMVFPOEtyVm9qZENWbjk1YTlTc3YzSVZ5S3lwWHhFVFVPVDcyWkNYMmFlRmUzSkVUUnZHOWdPMndjRUU?oc=5"
+          }
+        ]
+      },
+      {
+        "name": "管理職試験",
+        "items": [
+          {
+            "title": "大津市管理職昇任試験廃止 - 選挙ドットコム",
+            "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zT25uc1dTcHUzdGRWdGlHVEZZdXVCbWpmNkZZbEk2RWY2VVVLS2t4dURVRU9kTkpjejUxZGJRYlBEVjdaYWRwT043dFJRZDdiQzNyTlZEM2JqMlBXUEp3?oc=5"
+          },
+          {
+            "title": "35歳主任エンジニア、管理職か専門職かの選択に悩む キャリアの岐路に - 日経クロステック",
+            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9nX3VWdHBaT0ozU3hVSXEwdWU0UUUyb0RQSk5WM0M5dXRhSy1STk5xdTZPVVdSMjRjZERGMUE1QkdjMWw2YURHUmF3eFA3VEo3aUYwRFNyTE9CUFBTazJKRk42bVJFYW8?oc=5"
+          },
+          {
+            "title": "管理職にジョブシェアリング制度「タンデム方式」を試験導入 - PR TIMES",
+            "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jc0xVdF93dF9HNGVQaWJwNEQ4YW9WWHRFRERRc1pVdzNvRnFRVFFJd09CTGFRbndod2ZBa1VMT0FVaElSS25XNExJSXo1djdQTkZxNnVKWGtCWjFNa2R0X016LXVyaXdaWXc?oc=5"
+          }
+        ]
+      },
+      {
+        "name": "X(Twitter) 日本トレンド",
+        "items": [
+          {
+            "title": "#みんなで弾く物語",
+            "link": "https://twitter.com/search?q=%23%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E5%BC%BE%E3%81%8F%E7%89%A9%E8%AA%9E"
+          },
+          {
+            "title": "#マックの月見バーガー前夜祭",
+            "link": "https://twitter.com/search?q=%23%E3%83%9E%E3%83%83%E3%82%AF%E3%81%AE%E6%9C%88%E8%A6%8B%E3%83%90%E3%83%BC%E3%82%AC%E3%83%BC%E5%89%8D%E5%A4%9C%E7%A5%AD"
+          },
+          {
+            "title": "防災の日",
+            "link": "https://twitter.com/search?q=%E9%98%B2%E7%81%BD%E3%81%AE%E6%97%A5"
+          },
+          {
+            "title": "#備える電気とオーラルケア",
+            "link": "https://twitter.com/search?q=%23%E5%82%99%E3%81%88%E3%82%8B%E9%9B%BB%E6%B0%97%E3%81%A8%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%AB%E3%82%B1%E3%82%A2"
+          },
+          {
+            "title": "広域農道",
+            "link": "https://twitter.com/search?q=%E5%BA%83%E5%9F%9F%E8%BE%B2%E9%81%93"
+          },
+          {
+            "title": "秋山豊寛さん",
+            "link": "https://twitter.com/search?q=%E7%A7%8B%E5%B1%B1%E8%B1%8A%E5%AF%9B%E3%81%95%E3%82%93"
+          },
+          {
+            "title": "生活道路",
+            "link": "https://twitter.com/search?q=%E7%94%9F%E6%B4%BB%E9%81%93%E8%B7%AF"
+          },
+          {
+            "title": "#ちょ備蓄",
+            "link": "https://twitter.com/search?q=%23%E3%81%A1%E3%82%87%E5%82%99%E8%93%84"
+          },
+          {
+            "title": "#サーティワンのミルキーワンダーランド",
+            "link": "https://twitter.com/search?q=%23%E3%82%B5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%AF%E3%83%B3%E3%81%AE%E3%83%9F%E3%83%AB%E3%82%AD%E3%83%BC%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89"
+          },
+          {
+            "title": "長期金利",
+            "link": "https://twitter.com/search?q=%E9%95%B7%E6%9C%9F%E9%87%91%E5%88%A9"
           }
         ]
       }
